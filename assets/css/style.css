@@ -46,10 +46,26 @@
     transform: translateY(-50%);
 }
 
+/* css for  homeParallax  section */
 
+.homeParallax {
+    /* background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)), url(../images/lights.jpg); */
+    background-image: url(../images/lights.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
 
-
-
+.homeParallax::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    left: 0;
+    top: 0;
+}
 
 
 
