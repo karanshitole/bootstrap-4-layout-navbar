@@ -31,6 +31,20 @@
     border-bottom: 4px solid orange;
 }
 
+/*###################### css for silder  section on home page ###################### */
+.mainSlider .carousel-inner,
+.mainSlider .carousel-item,
+.mainSlider .carousel-item > img{
+    height: 400px;
+}
+.mainSlider.carousel-item > item{
+    object-fit: cover;
+}
+.mainSlider .carousel-caption{
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+}
 
 
 
