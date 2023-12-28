@@ -1,6 +1,7 @@
 :root{
     --color-primary: #ffa500;
     --color-white : #fff;
+    --color-dark: #000;
 }
 
 .navbar.MainNaBar {
@@ -79,6 +80,14 @@
     object-fit: cover;
 
 }
+.news .form-inline {
+    justify-content: center;
+}
+
+.footer{
+    background-color: var(--color-dark);
+}
+
 
 
 
