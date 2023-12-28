@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark MainNaBar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fcNavbar">
       <a class="navbar-brand" href="index.html">
         <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" 
         alt="flipkart-logo" title="flipkart-logo">
@@ -31,19 +31,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto text-uppercase">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">current</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">about</a>
+            <a class="nav-link" href="aboutus.html">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">service</a>
+            <a class="nav-link" href="services.html">service</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">blogs</a>
+            <a class="nav-link" href="blogs.html">blogs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contact us</a>
+            <a class="nav-link" href="contactus.html">contact us</a>
           </li>
           
         
@@ -218,30 +218,27 @@
       </div>
     </div>
    </section>
-   <section class="news py-5 bg-dark text-white text-center">
+   <section class="news py-5 bg-dark text-center text-white">
     <div class="container">
       <div class="row">
         <div class="col-12">
-         <h3 class="mb-2 mb-md-3 text-capitalize">signup for our newslatter</h3>
-         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-           Praesentium repudiandae autem officiis quos voluptatem? Est rerum soluta necessitatibus itaque amet impedit ab alias odio inventore, voluptatum tempore nemo obcaecati qui?
-         </p>
+          <h3 class="mb-2 mb-md-3 text-capitalize">signup for aur newsletter</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, quas sit excepturi exercitationem assumenda in sed labore eum corrupti optio quam culpa est libero! Ab?</p>
+            <form class="form-inline justify-content-center">
+              <div class="form-group mb-2">
+                <label for="staticEmail2" class="sr-only">Email</label>
+                <input type="text" class="form-control" id="staticEmail2" value="email@example.com">
+              </div>
+              <div class="form-group mx-sm-3 mb-2">
+                <label for="inputPassword2" class="sr-only">Password</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+            </form>
         </div>
-        <form class="form-inline">
-          <div class="form-group mb-2">
-            <label for="staticEmail2" class="sr-only">Email</label>
-            <input type="text" class="form-control" id="staticEmail2" value="email@example.com">
-          </div>
-          <div class="form-group mx-sm-3 mb-2">
-            <label for="inputPassword2" class="sr-only">Password</label>
-            <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-          </div>
-          <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
-        </form>
       </div>
     </div>
-   </section>
+  </section>
    <footer class="footer py-5 text-center text-white">
     <div class="container">
       <div class="row">
